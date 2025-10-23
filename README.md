@@ -106,22 +106,28 @@ ROUGE-Lsum ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 | Generic phrasing | Summaries sometimes vague | Continue fine-tuning with LoRA/PEFT |
 
 ---
+---
+## ⚡ Setup & Reproducibility
 
-⚡ Setup & Reproducibility
-1. Install dependencies
-!pip install -r requirements.txt
+### 🧩 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-2. Run the notebook
-# Open in Colab
-# https://colab.research.google.com/github/SruthiGandla101/LLM-Finetune-PubMed/blob/main/LLM_Finetune.ipynb
-
-3. Resume training
-
+### 2. Run the notebook
+Open in Colab
+```bash
+https://colab.research.google.com/github/SruthiGandla101/LLM-Finetune-PubMed/blob/main/LLM_Finetune.ipynb
+```
+---
+### 3. Resume training
 If interrupted, checkpoints auto-resume:
-
+```bash
 trainer.train(resume_from_checkpoint=True)
-
-🧩 Lessons Learned
+```
+---
+---
+##  🧩 Lessons Learned
 
 Domain-specific fine-tuning significantly boosts LLM performance.
 
@@ -129,12 +135,14 @@ Ray Tune enables fast hyperparameter exploration even in Colab.
 
 FLAN-T5-Small provides a strong, efficient baseline for biomedical text generation.
 
-🚧 Future Work
+---
+---
+## 🚧 Future Work
 
 Fine-tune larger variants (FLAN-T5-Base / Large)
-
-Implement parameter-efficient fine-tuning (LoRA / PEFT)
 
 Evaluate factual consistency using biomedical entity match scoring
 
 Deploy as a web demo (Streamlit or Hugging Face Spaces)
+
+---
