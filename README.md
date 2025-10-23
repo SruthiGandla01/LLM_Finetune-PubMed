@@ -128,20 +128,16 @@ trainer.train(resume_from_checkpoint=True)
 ---
 ##  🧩 Lessons Learned
 
-Domain-specific fine-tuning significantly boosts LLM performance.
-
-Ray Tune enables fast hyperparameter exploration even in Colab.
-
-FLAN-T5-Small provides a strong, efficient baseline for biomedical text generation.
+- Domain-specific fine-tuning significantly boosts LLM performance.
+- Ray Tune enables fast hyperparameter exploration even in Colab.
+- FLAN-T5-Small provides a strong, efficient baseline for biomedical text generation.
 
 ---
 ---
 ## 🚧 Future Work
 
-Fine-tune larger variants (FLAN-T5-Base / Large)
-
-Evaluate factual consistency using biomedical entity match scoring
-
-Deploy as a web demo (Streamlit or Hugging Face Spaces)
+- Fine-tune larger variants (FLAN-T5-Base / Large)
+- Evaluate factual consistency using biomedical entity match scoring
+- Deploy as a web demo (Streamlit or Hugging Face Spaces)
 
 ---
