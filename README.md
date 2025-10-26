@@ -44,8 +44,7 @@ The goal is to adapt a general instruction-tuned model to the **biomedical domai
 ## 🧮 Dataset
 **Source:** [ccdv/pubmed-summarization](https://huggingface.co/datasets/ccdv/pubmed-summarization)  
 - Domain: Biomedical research papers (articles + abstracts)  
-- Total records: ~133,000  
-- Used subset: 10% (~10,000 train, 1,500 validation, 1,500 test)  
+- Total records: ~133,000    
 - Input length: 512 tokens  
 - Target length: 128 tokens  
 
